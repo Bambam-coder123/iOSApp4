@@ -2,7 +2,7 @@ import SwiftUI
 import FirebaseCore
 
 @main
-struct UserAgeApp: App {
+struct iOSApp4: App {
     init() {
         FirebaseApp.configure()
     }
