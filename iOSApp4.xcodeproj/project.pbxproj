@@ -195,6 +195,10 @@
 			);
 			mainGroup = 63F236BD2EB84A0100F28AC0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				63F236F02EB8519400F28AC0 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				63F236F12EB852C700F28AC0 /* XCRemoteSwiftPackageReference "iOSApp4" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 63F236C72EB84A0200F28AC0 /* Products */;
 			projectDirPath = "";
@@ -558,6 +562,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63F236F02EB8519400F28AC0 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		63F236F12EB852C700F28AC0 /* XCRemoteSwiftPackageReference "iOSApp4" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Bambam-coder123/iOSApp4";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 63F236BE2EB84A0100F28AC0 /* Project object */;
 }

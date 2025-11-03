@@ -1,14 +1,12 @@
-//
-//  iOSApp4App.swift
-//  iOSApp4
-//
-//  Created by Mac User on 2025-11-02.
-//
-
 import SwiftUI
+import FirebaseCore
 
 @main
-struct iOSApp4App: App {
+struct UserAgeApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
